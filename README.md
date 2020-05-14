@@ -9,4 +9,5 @@ This script isn't user friendly at the moment. You have to manually find out whe
 - Function to find the specific request and POST data for each phishing site.
 - Command line arguments.
 
-## Usage: `python3 phishfaker.py <url>`
+## Usage 
+`python3 phishfaker.py <url>`
