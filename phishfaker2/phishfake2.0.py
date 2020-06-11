@@ -94,8 +94,7 @@ def requester(useragents, passwords, usernames):
         logins_sent += 1
         myLock.release()
 
-        if verbose:
-            showInfo("Sent {} logins".format(logins_sent))
+        showInfo("Sent {} logins".format(logins_sent))
 
 # Parse command line arguments
 parser = argparse.ArgumentParser(prog="phishfaker", description="Send fake logins to phishing sites", allow_abbrev=True)
