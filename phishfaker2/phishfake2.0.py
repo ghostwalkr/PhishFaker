@@ -118,6 +118,7 @@ useragents, passwords, usernames = loadLists()
 
 thread_list = []
 
+print("PhishFaker 2.0\nInspired by Engineer Man's video https://www.youtube.com/watch?v=UtNYzv8gLbs")
 for thr in range(1, thread_count + 1):
     t = threading.Thread(target=requester, args=(useragents, passwords, usernames))
     thread_list.append(t)
